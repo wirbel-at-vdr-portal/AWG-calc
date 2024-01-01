@@ -8,3 +8,7 @@ Here's an example, how this software typically looks like.
 ![alt text](doc/AWG-calc.png)
 
 This program just lists resistance per meter, eqivalent European cable diameters and diameters in milli meters.
+
+To compile this prog, pls use the **Lazarus IDE**.
+You should be able to use the prog on Win and Linux.
+ 
