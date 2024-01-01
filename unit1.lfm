@@ -1,0 +1,56 @@
+object Form1: TForm1
+  Left = 1286
+  Height = 561
+  Top = 368
+  Width = 1025
+  Caption = 'AWG calculator'
+  ClientHeight = 561
+  ClientWidth = 1025
+  OnCreate = FormCreate
+  LCLVersion = '2.0.6.0'
+  object StringGrid1: TStringGrid
+    Left = 8
+    Height = 543
+    Top = 9
+    Width = 1008
+    Columns = <    
+      item
+        Title.Caption = 'd (mm)'
+        Width = 64
+      end    
+      item
+        Title.Caption = 'A (mm²)'
+        Width = 64
+      end    
+      item
+        Title.Caption = 'R per meter (ohms)'
+        Width = 64
+      end    
+      item
+        Title.Caption = 'eqiv. metric (mm²)'
+        Width = 64
+      end>
+    Options = [goFixedVertLine, goVertLine, goHorzLine, goRangeSelect, goRowSizing, goColSizing, goSmoothScroll]
+    RowCount = 60
+    TabOrder = 0
+    TitleFont.Style = [fsBold]
+    Cells = (
+      5
+      0
+      0
+      'AWG'
+      0
+      1
+      '0000 (4/0)'
+      0
+      2
+      '000 (3/0)'
+      0
+      3
+      '00 (2/0)'
+      0
+      4
+      '0 (1/0)'
+    )
+  end
+end
